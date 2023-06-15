@@ -5,7 +5,7 @@
  *
  *description: program that print with printf function
  *
- *Return value of main: always 0 (success)
+ *description for return value of 'main': always 0 (success)
 */
 
 int main(void)
