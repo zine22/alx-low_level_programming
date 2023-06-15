@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
-*main: entry point
-*printf function
-*return always 0 (success)
+ *main - entry point
+ *
+ *description: program that print with printf function
+ *
+ *Return value of main: always 0 (success)
 */
 
 int main(void)
