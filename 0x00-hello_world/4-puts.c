@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
- *description for main: print this text using puts function
- *Return: Always 0 (Success)
+ * main - Entry point
+ *
+ * Description for main: print this text using puts function
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
