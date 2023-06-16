@@ -16,7 +16,7 @@ char i = 'a';
 while (i <= 'z')
 {
 putchar(i);
-i++
+i++;
 }
 return (0);
 }
