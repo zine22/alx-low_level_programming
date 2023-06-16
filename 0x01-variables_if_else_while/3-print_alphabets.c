@@ -19,5 +19,6 @@ i++;
 putchar(o);
 o++;
 }
+putchar('\n');
 return (0);
 }
