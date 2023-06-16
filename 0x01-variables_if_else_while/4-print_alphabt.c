@@ -15,6 +15,10 @@ char i = 'a';
 
 while (i <= 'z')
 {
+if (i == 101; i == 113)
+{
+continue;
+}
 putchar(i);
 i++;
 }
