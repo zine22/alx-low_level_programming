@@ -12,11 +12,14 @@ int main(void)
 {
 char i = 48;
 char a = 97;
-while (i <= 57 && a <= 102)
+while (i <= 57)
 {
 putchar(i);
-putchar(a);
 i++;
+}
+while (a <= 122)
+{
+putchar(a);
 a++;
 }
 return (0);
