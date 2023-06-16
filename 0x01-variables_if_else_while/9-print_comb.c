@@ -16,7 +16,10 @@ char c = 1;
 while (i <= 57)
 {
 putchar(i);
+putchar(',');
+putchar(' ');
 i++;
 }
+putchar('\n');
 return (0);
 }
