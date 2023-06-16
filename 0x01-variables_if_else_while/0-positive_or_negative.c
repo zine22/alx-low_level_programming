@@ -5,7 +5,7 @@
 *
 * Return: Always 0 (success)
 *
-* Description: false or true validation and print with printf func
+* Description: false or true validation
 */
 
 int main(void)
@@ -17,15 +17,15 @@ n = rand() - RAND_MAX / 2;
 
 if (n > 0)
 {
-printf("the number is positive");
+printf("%i is positive\n", n);
 }
 else if (n < 0)
 {
-printf("the number is negative");
+printf("%i is negative\n", n);
 }
 else
 {
-printf("the number is zero");
+printf("%i is zero\n", n);
 }
 return (0);
 }
