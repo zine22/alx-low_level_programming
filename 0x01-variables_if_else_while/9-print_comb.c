@@ -14,9 +14,13 @@ int i = 48;
 
 while (i <= 57)
 {
+putchar(i);
+
+if (i != 57)
+{
 putchar(',');
 putchar(' ');
-putchar(i);
+}
 i++;
 }
 putchar('\n');
