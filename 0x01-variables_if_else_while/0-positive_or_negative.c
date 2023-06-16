@@ -1,12 +1,13 @@
 #include<stdlib.h>
 #include<time.h>
+#include<stdio.h>
 
 /**
 * Main - Entry point
 *
 * Return: Always 0 (success)
 *
-* Description: print if number sorted is positive or negative using if;else and printf function
+* Description: print if number sorted is positive or negative with printf func
 */
 
 int main(void)
