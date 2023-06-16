@@ -1,5 +1,3 @@
-#include<stdlib.h>
-#include<time.h>
 #include<stdio.h>
 
 /**
@@ -7,7 +5,7 @@
 *
 * Return: Always 0 (success)
 *
-* Description: print if number sorted is positive or negative with printf func
+* Description: false or true validation and print with printf func
 */
 
 int main(void)
