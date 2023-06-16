@@ -13,7 +13,7 @@ int main(void)
 
 char i = 'a';
 
-while (i <= 'z')
+while (i <= 'z'\n)
 {
 putchar(i);
 i++;
