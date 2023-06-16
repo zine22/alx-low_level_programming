@@ -15,12 +15,11 @@ char i = 'a';
 
 while (i <= 'z')
 {
-if (i == 101 || i == 113)
-{
-continue;
-}
+if (i == 'e' || i == 'q')
+i++;
 putchar(i);
 i++;
 }
+putchar('\n');
 return (0);
 }
