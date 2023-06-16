@@ -11,7 +11,6 @@
 int main(void)
 {
 char i = 48;
-char c = 1;
 
 while (i <= 57)
 {
