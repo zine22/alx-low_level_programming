@@ -17,8 +17,8 @@ int i = 0;
 while (i < 8)
 {
 _putchar(str[i]);
-_putchar("\n");
 i++;
 }
+_putchar("\n");
 return (0);
 }
