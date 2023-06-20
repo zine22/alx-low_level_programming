@@ -8,8 +8,6 @@
 * print_alphabet - by using _putchar function alphabets a to z
 */
 
-int main(void)
-{
 void print_alphabet(void)
 {
 int a = 97
@@ -19,6 +17,4 @@ _putchar(a);
 a++;
 }
 -putchar("\n");
-}
-return (0);
 }
