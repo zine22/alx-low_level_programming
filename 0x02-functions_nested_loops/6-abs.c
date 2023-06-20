@@ -16,7 +16,7 @@ n = n * (-1);
 }
 else
 {
-_putchar(n);
+return (n);
 }
 return (0);
 }
