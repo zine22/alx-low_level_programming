@@ -5,7 +5,7 @@
 *
 * Return: return 1 if c is a letter and 0 if not
 *
-* int c - member
+* @c: the character to be checked
 */
 
 int _isalpha(int c)
