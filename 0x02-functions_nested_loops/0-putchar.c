@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"main.h"
+#include "main.h"
 
 /**
 * Main - Entry point print _printchar by using putchar function
