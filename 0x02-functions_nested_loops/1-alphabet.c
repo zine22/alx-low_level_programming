@@ -1,10 +1,6 @@
 #include "main.h"
 
 /**
-* main - check the code
-*
-* Return: Always 0 (success)
-*
 * print_alphabet - by using _putchar function alphabets a to z
 */
 
@@ -14,3 +10,4 @@ int a;
 for (a = 'a'; a <= 'z'; a++)
 _putchar(a);
 }
+_putchar("\n");
