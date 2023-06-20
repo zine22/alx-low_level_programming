@@ -1,0 +1,15 @@
+#include<stdio.h>
+/**
+* Main - Entry point
+*
+* Return: always 0 (success)
+*
+* Description: print _printchar by using putchar function
+*
+*/
+
+int main(void)
+{
+putchar("_putchar");
+return (0);
+}
