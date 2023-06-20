@@ -10,7 +10,13 @@
 
 int _abs(int n)
 {
-
-_putchar(abs'n');
+for (n < 0)
+{
+_putchar(45n);
+}
+else
+{
+_putchar(n);
+}
 return (0);
 }
