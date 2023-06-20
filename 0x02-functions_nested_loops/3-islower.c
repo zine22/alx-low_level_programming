@@ -6,7 +6,7 @@
 * Return: 1 if c is lowercase and 0 for success
 */
 
-int main(void)
+int _islower(int c)
 {
 int c;
 for (c >= 97; c <= 122)
