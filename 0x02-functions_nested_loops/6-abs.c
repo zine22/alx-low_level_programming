@@ -10,9 +10,9 @@
 
 int _abs(int n)
 {
-for (n < 0)
+if (n < 0)
 {
-_putchar(45n);
+n = n * (-1);
 }
 else
 {
