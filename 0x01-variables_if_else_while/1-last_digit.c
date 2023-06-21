@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* Main - entry point
+* Main - Entry point
 *
-* Return: Always 0 (Success)
+* description: this program generates a random number and prints its last digit
+* with printf function print a message based on the last digit value.
 *
-* Description: print the value of n:
-* greater than 5 or less than 6 or equal to 0
+* Return: Always 0 (success)
 */
 
 int main(void)
