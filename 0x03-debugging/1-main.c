@@ -3,6 +3,8 @@
 /**
 * main - causes an infinite loop
 *
+* Description: comment out the infinite loop
+*
 * Return: 0
 */
 
