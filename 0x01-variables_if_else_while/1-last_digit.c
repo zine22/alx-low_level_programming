@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* Main - Entry point
+* main - entry point
 *
 * description: this program generates a random number and prints its last digit
 * with printf function print a message based on the last digit value.
