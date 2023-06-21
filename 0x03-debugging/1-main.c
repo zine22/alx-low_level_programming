@@ -8,8 +8,9 @@
 
 int main(void)
 {
-int i;
 /* don't delete it!*/
+int i;
+
 printf("Infinite loop incoming :(\n");
 
 
