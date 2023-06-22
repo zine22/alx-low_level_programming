@@ -1,16 +1,14 @@
-#include <main.h>
+#include "main.h"
 
 /**
 * print_line - to print lines
-*
-* Return: always 0
 *
 * @n: random number
 */
 
 void print_line(int n)
 {
-int n;
+
 int m;
 
 if (n > 0)
@@ -23,6 +21,5 @@ _putchar('\n');
 }
 else
 _putchar('\n');
-}
-return (0);
+
 }
