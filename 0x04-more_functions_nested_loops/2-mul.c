@@ -11,8 +11,9 @@
 
 int mul(int a, int b)
 {
+
 int c;
-while (c = a * b)
+while (c == a * b)
 {
 _putchar(c);
 }
