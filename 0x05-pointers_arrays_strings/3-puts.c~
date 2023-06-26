@@ -1,0 +1,13 @@
+#include "main.h"
+
+/**
+* _puts - print string
+*
+* Return: Always 0
+*/
+
+void _puts(char *str)
+{
+_puts(str);
+return (0);
+}
