@@ -5,10 +5,12 @@
 *
 *@s: size of length
 *
-* return: length
+* return: Always 0
 */
 
 int _strlen(char *s)
 {
-return (s);
+int len = *s;
+_putchar(len);
+return (0);
 }
