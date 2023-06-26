@@ -10,7 +10,11 @@
 
 int _strlen(char *s)
 {
-int len = *s;
+int len = 0;
+while (*s != '\0' && len <= s)
+{
 _putchar(len);
+len++;
+}
 return (0);
 }
