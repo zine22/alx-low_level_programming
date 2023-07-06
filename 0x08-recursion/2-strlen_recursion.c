@@ -10,6 +10,7 @@
 
 int _strlen_recursion(char *s)
 {
+_strlen_recursion(s);
 -putchar('\n');
 return (0);
 }
