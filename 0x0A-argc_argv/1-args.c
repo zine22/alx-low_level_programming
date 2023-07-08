@@ -12,11 +12,10 @@
 
 int main(int argc, char *argv[])
 {
-int i;
+
 (void)argv;
-for (i = 0, i < argc, i++)
-{
-printf("argc = %d", i - 1, argc);
-}
+
+printf("%d", argc);
+
 return (0);
 }
