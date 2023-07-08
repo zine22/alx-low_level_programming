@@ -35,7 +35,7 @@ break;
 }
 printf("%d\n", rest);
 }
- else
+else
 {
 printf("Error\n");
 return (1);
