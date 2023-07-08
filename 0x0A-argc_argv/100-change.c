@@ -11,8 +11,9 @@
 * Return: 0 (success)
 */
 
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
+(void)argv;
 if (argc == 2)
 {
 
