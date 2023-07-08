@@ -14,7 +14,7 @@
 int main(int argc, char *argv[])
 {
 (void)argv;
-if (argc == 2)
+if (argc >= 2)
 {
 
 int i, rest = 0, money = atoi(argv[1]);
