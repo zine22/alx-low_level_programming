@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * main - print number of arguments
@@ -11,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-printf("%d", argc);
+printf("argc = %d", argc);
 
 return (0);
 }
