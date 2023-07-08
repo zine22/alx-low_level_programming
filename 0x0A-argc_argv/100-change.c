@@ -13,13 +13,9 @@
 
 int main(argc, char *argv[])
 {
-if (argc == 1)
+if (argc == 2)
 {
-printf("error\n");
-return (1);
-}
-else (argc > 1)
-{
+
 int i, rest = 0, money = atoi(argv[1]);
 int cents[] = {25, 10, 5, 2, 1};
 
@@ -38,6 +34,10 @@ break;
 }
 printf("%d\n", rest);
 }
-
+ else
+{
+printf("Error\n");
+return (1);
+}
 return (0);
 }
