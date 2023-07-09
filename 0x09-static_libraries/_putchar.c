@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include "main.h"
 
 /**                                                                                                                                                  
@@ -6,19 +5,12 @@
  *                                                                                                                                                   
  * Description: Prints _putchar using putchar prototype                                                                                              
  *                                                                                                                                                   
- * Return: Always 0 (success)                                                                                                                        
-*/
+ * Return: Always 0 (success)                                                                                                                      
+ */
 
-int main(void)
-{
-char str[] = "_putchar";
-int i = 0;
 
-while (i < 8)
+int _putchar(char c)
 {
-_putchar(str[i]);
-i++;
-}
-_putchar('\n');
+
 return (0);
 }
