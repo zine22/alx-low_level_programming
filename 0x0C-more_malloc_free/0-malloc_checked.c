@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* *malloc_cheched - allocate memory and terminate with 98 if failed
+* *malloc_checked - allocate memory and terminate with 98 if failed
 *
 * @b: int
 *
@@ -14,5 +14,5 @@ int *m = malloc(b);
 
 if (m == 0)
 exit(98);
-return(m);
+return (m);
 }
