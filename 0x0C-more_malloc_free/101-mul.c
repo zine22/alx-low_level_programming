@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,14 +10,8 @@
 
 int main(void)
 {
-float num1, num2;
-int mul, i, j;
-
-for (i = 0; i < num1; i++)
-;
-for (j = 0; j < num2; j++)
-;
-_putchar(num1 * num2);
+int mul;
+_putchar(mul);
 
 return (0);
 
