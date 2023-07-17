@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+/**
+* main - prints the name of the current file
+*
+*/
+
+int main(void)
+{
+printf("%d\n", __file__);
+}
