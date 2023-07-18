@@ -17,8 +17,6 @@ if (d->name)
 free(d->name);
 if (d->owner)
 free(d->owner);
-if (d->age)
-free(d->age);
 
 free(d);
 }
