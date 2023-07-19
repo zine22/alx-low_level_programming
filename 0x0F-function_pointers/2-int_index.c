@@ -20,6 +20,6 @@ if (cmp(array[i]))
 return (i);
 i++;
 }
-else
+
 return (-1);
 }
