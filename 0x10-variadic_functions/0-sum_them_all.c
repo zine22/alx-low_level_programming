@@ -1,4 +1,4 @@
-#include "variadic_variables.h"
+#include "variadic_functions.h"
 
 /**
 * sum_them_all - returns the sum
@@ -15,7 +15,7 @@ int sum = 0, i;
 
 va_list ap;
 
-if (n == NULL)
+if (!n)
 return (0);
 
 va_start(ap, n);
