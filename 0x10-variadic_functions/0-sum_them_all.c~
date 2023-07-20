@@ -1,0 +1,14 @@
+#include "variadic_variables.h"
+
+/**
+* sum_them_all - returns the sum
+*
+* @n: member
+*
+* Return: always 0
+*
+*/
+
+int sum_them_all(const unsigned int n, ...)
+{
+  
