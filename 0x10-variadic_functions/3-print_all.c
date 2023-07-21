@@ -11,3 +11,17 @@
 
 void print_all(const char * const format, ...)
 {
+int i = 0, a;
+char *separator = "";
+
+va_list ap;
+
+printf("\n");
+return;
+
+va_start(ap);
+while (i--)
+printf("%d", va_arg(ap);
+
+va_end(ap);
+}
