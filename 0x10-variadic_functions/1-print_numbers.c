@@ -11,18 +11,20 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-int i = n;
-va_list ap;
+int i;
+va_list arg;
 
-if (!n)
+if (n == 0)
 {
 printf("\n");
 return;
 }
 
-va_start(ap, n);
-while (i--)
-printf("%d%s", va_arg(ap, int),
+va_start(arg, n);
+for (i = 0; i < (int) n; i++)
+{
+printf("%d%s", va_arg(arg, int),
 i ? (separator ? separator : "") : "\n");
-va_end(ap);
+}
+va_end(arg);
 }
