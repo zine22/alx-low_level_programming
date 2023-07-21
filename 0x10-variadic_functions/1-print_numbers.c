@@ -23,8 +23,9 @@ return;
 va_start(arg, n);
 for (i = 0; i < n; i++)
 {
-printf("%d%s", va_arg(arg, int),
-i ? (separator ? separator : "") : "\n");
+printf("%d", va_arg(arg, int)); 
+if (separator != NULL && i < (n - 1))
+printf("%s", separator);
 }
 va_end(arg);
 }
