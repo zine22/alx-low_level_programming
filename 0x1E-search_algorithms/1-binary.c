@@ -1,4 +1,4 @@
-#include "algo.h"
+#include "search_algos.h"
 
 /**
  * binary_search - Function to perform binary search
